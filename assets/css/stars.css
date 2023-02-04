@@ -1,0 +1,350 @@
+/*
+Copyright 2017 nicolesawler.
+*/
+/* 
+    Created on : 6-Oct-2017, 7:15:01 PM
+    Author     : nicolesawler
+*/
+#stars-intro-message{
+	background-color:#967bb3;
+	border:0px solid #080049;
+	padding:20px;
+	margin:15px auto 0 auto;
+	font-size:12px;
+	color:white;
+	width:630px;
+	font-family:verdana;
+	font-weight:normal;
+}
+
+
+#stars-box{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 15px auto;
+	font-size:12px;
+	color:#080049;
+	width:630px;
+	font-family:verdana;
+	font-weight:normal;
+}
+#stars-title{
+	background-color:#080049;
+	border:1px solid #080049;
+	border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:660px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+#stars-note{
+	background-color:white;
+	border:0px solid #080049;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:#080049;
+	width:660px;
+	height:25px;
+	text-align:center;
+	font-family:verdana;
+	font-weight:normal;
+}
+
+
+
+
+
+#stars-box{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 15px auto;
+	font-size:12px;
+	color:#080049;
+	width:630px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#stars-title{
+	background-color:#080049;
+	border:1px solid #080049;
+	border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:660px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+#stars-note{
+	background-color:#fff;
+	border:0px solid #080049;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:#8b8b8b;
+	width:660px;
+	height:25px;
+	text-align:center;
+	font-family:verdana;
+	font-weight:normal;
+}
+#stars-box-holder{
+margin:0px 0px 0px 15px;
+	float:left;
+}
+#stars-box-half{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:285px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#stars-title-half{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:0px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:315px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+#stars-box-top-left{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:485px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#stars-title-top-left{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:20px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:515px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+
+#stars-box-top-right{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:85px;
+	font-family:verdana;
+	font-weight:normal;
+}
+#stars-title-top-right{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:20px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:115px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+
+
+
+#stars-survey-question{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#stars-survey-question input{
+	float:right;
+}
+
+
+#stars-survey-holder{
+	width:300px;
+	float:left;
+	padding-right:10px;
+}
+
+
+
+
+#stars-select,.stars-select  {
+	width:131px;
+	float:right;
+	border:1px solid #ddd;
+	background-color:white;
+	border-radius:0;
+	outline:none;
+	  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  padding:2px 5px 2px 5px;
+  
+}
+
+
+.descriptions{
+	resize: none;
+	width:277px;
+	height:100px;
+	border:1px solid #ccc;
+	outline:none;
+	color:#080049;
+	font-size:13px;
+}
+
+.summary{
+	resize: none;
+	width:277px;
+	height:108px;
+	border:1px solid #ccc;
+	outline:none;
+	color:#080049;
+	font-size:13px;
+}
+#stars-survey-question input{
+	outline:none;
+	padding-left:4px;
+	width:122px;
+}
+#stars-survey-question input.skill{
+	outline:none;
+	padding-left:4px;
+	width:230px;
+}
+#stars-survey-question input.award{
+	outline:none;
+	padding-left:4px;
+	width:350px;
+	float:left;
+	margin-top:7px;
+}
+#stars-survey-question select.award-info{
+	outline:none;
+	margin-left:15px;
+	margin-top:7px;
+	width:120px;
+	float:left;
+}
+#stars-survey-question input:hover,#stars-survey-question input:focus,#stars-survey-question select:hover,#stars-survey-question select:focus{
+	outline:none;
+
+}
+
+button.save-stars, .save-stars:focus{
+	background-color:#080049;
+	color:white;
+	padding:  10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 15px 10px 0px;
+    float:right;
+    outline:none;
+}
+.save-stars:hover{
+	background-color:#080049;
+	color:#dbce00;
+	padding:  10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 15px 10px 0px;
+    float:right;
+    outline:none;
+    cursor:pointer;
+}
+.save-stars:disabled{
+	opacity:.5;
+	color:white;
+}
+#stars-box small{
+	color:#aaa;
+}
+
+
+#stars-box-top-left [class^="gw-"]:before,
+#stars-box-top-left  [class*=" gw-"]:before,
+#stars-box-top-left  [class^="gw-"]:after,
+#stars-box-top-left  [class*=" gw-"]:after{
+    font-size:155px;
+    float:left;
+    line-height:155px;
+    margin-right:25px;
+    margin-bottom:25px;
+    
+}
+
+
+
+#stars-box-half [class^="gw-"]:before,
+#stars-box-half  [class*=" gw-"]:before,
+#stars-box-half  [class^="gw-"]:after,
+#stars-box-half  [class*=" gw-"]:after,
+#stars-box [class^="gw-"]:before,
+#stars-box  [class*=" gw-"]:before,
+#stars-box  [class^="gw-"]:after,
+#stars-box  [class*=" gw-"]:after{
+    font-size:50px;
+    float:left;
+    line-height:50px;
+    margin-right:10px;
+    margin-bottom:0px;
+    margin-left:0;
+    color:#967bb3;
+}
+
+button.btn-stars-zodiac{
+    display:block;
+    color:#080049;
+    border:0;
+    padding:0;
+    margin:0;
+    background-color:transparent;
+    cursor:pointer;
+    font-size:12px;
+    font-family:verdana;
+}

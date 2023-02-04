@@ -1,0 +1,395 @@
+body,html,#vision{
+	margin:0;
+	padding:0;
+}
+
+.logo img{
+	max-width:120px;
+}
+#vision > .head-nav {
+        width:100%;
+	background-color:#080049;
+	height:50px;
+}
+#head-nav > .center{
+        width:950px;
+        height:50px;
+	margin:1px auto 1px auto;
+        background-color:#080049;
+}
+.logo{
+    float:left;
+    width:120px;
+    height:27px;
+    background-image: url('../images/logos/logo-150.png');
+    margin-top:10px;
+    margin-left:5px;
+    background-size: cover;
+}
+.topnav{
+    background-color:#080049;
+    float:right;
+    margin-top:13px;
+    margin-right:5px;
+}
+
+
+
+
+
+
+#vision > #boxed-space{
+	width:950px;
+	margin:20px auto 20px auto;
+	background-color:#ccc;
+}
+
+
+#boxed-space > .side-space{
+	width:200px;
+	background-color:#f0f1fa;
+	padding:10px;
+	float:left;
+}
+#boxed-space > .side-space > .owner{
+	background-color:#eee;
+
+}
+
+#boxed-space > .side-space > .newest-gritters{
+	margin-top:50px;
+	background-color:#eee;
+
+}
+
+
+
+
+/*
+*main and user menu
+*
+*/
+
+
+#boxed-space > .main-space{
+	width:700px;
+	background-color:#fff;
+	padding:10px;
+	float:right;
+}
+#boxed-space > .main-space > .menu-space{
+	display:block;
+	background-color:#fff;
+	padding:0px;
+	border:1px solid #080049;
+	border-radius: 50px;
+}
+	.menu-space > #menu {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	}
+	.menu-space > #menu li {
+		padding: 20px 30px 0 30px;
+		float: left;
+		height:40px;
+	}
+	.menu-space > #menu li.active {
+		background-color:#eee;
+	}
+/*
+		.menu-space > #menu li.timeline {
+		background-color:#a53d3d;
+	}	.menu-space > #menu li.goals {
+		background-color:#db7303;
+	}	.menu-space > #menu li.career {
+		background-color:#f1c900;
+	}	.menu-space > #menu li.love {
+		background-color:#779f11;
+	}	.menu-space > #menu li.glog {
+		background-color:#26179e;
+	}	.menu-space > #menu li.stars {
+		background-color:#967bb3;
+	}	.menu-space > #menu li.investments {
+		background-color:#4c0366;
+	}
+	
+*/
+	
+	
+	
+	.menu-space > #menu li a {
+		color:#080049;
+		text-transform:capitalize;
+	}
+	.menu-space > #menu li a.timeline {
+		color:#080049;
+		border-bottom:1px solid #a53d3d;
+	}
+	.menu-space > #menu li a.goals {
+		color:#080049;
+		border-bottom:1px solid #db7303;
+	}
+
+	.menu-space > #menu li a.career {
+		color:#080049;
+		border-bottom:1px solid #f1c900;
+	}
+
+	.menu-space > #menu li a.love {
+		color:#080049;
+		border-bottom:1px solid #779f11;
+	}
+	.menu-space > #menu li a.glog {
+		color:#080049;
+		border-bottom:1px solid #26179e;
+	}
+		.menu-space > #menu li a.stars {
+		color:#080049;
+		border-bottom:1px solid #967bb3;
+	}
+	
+		.menu-space > #menu li a.investments {
+		color:#080049;
+		border-bottom:1px solid #4c0366;
+		
+	}
+	
+	
+
+#form-box{
+	border:1px solid #eee;
+	padding:25px;
+	background-color:#eee;
+	width:457px;
+	margin: 25px auto;
+}
+
+
+
+
+/*
+*register
+*
+*/
+
+
+
+#register-credentials-form input,
+#login-credentials-form input{
+        cursor: pointer;
+        padding: 16px 21px;
+	border:1px solid #ccc;
+	background-color:white;
+	margin:10px 5px;
+	width:400px;
+}
+#register-credentials-form input.names{
+        cursor: pointer;
+        padding: 16px 21px;
+	border:1px solid #ccc;
+	background-color:white;
+	margin:10px 5px;
+	width:172px;
+}
+#register-credentials-form select{
+	padding:10px;
+	border:1px solid #ccc;
+	background-color:white;
+	margin:10px 5px;
+}
+
+#register-credentials-form select{
+        display: inline-block;
+        width:139px;
+        cursor: pointer;
+        padding: 16px 21px;
+        outline: 0;
+        margin:10px 5px;
+        border: 1px solid #ccc;
+        background: #fff;
+        border-radius:0;
+        color: #7B7B7B;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+#register-credentials-form select::-ms-expand {
+    display: none;
+}
+
+#register-credentials-form select:disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+
+button:focus{
+    outline:none;
+}
+
+
+/*
+*footer
+*
+*/
+
+#footer-outside{
+	border-top:1px solid #ccc;
+	padding:25px;
+	background-color:white;
+	width:950px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*
+*sidebar
+*
+*/
+
+
+/*Profiles*/
+.profile-pic{
+	margin:10px auto 10px auto;
+	width: 160px;
+    height: 160px;
+    background: #fff url('../../profiles/1/me.png') center center no-repeat;
+    background-size: 200px 200px;
+	border:4px solid #fff;
+	
+}
+
+ button.add-friend-button-sidebar,
+ button.add-love-button-sidebar,
+ button.add-career-button-sidebar{
+	width:170px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+
+}
+ button.big-remove-button-sidebar{
+	width:170px;
+	border:0;
+	color: #aaa;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        border:1px solid #ccc;
+        background-color:#fff;
+        cursor:pointer;
+}
+ button.big-remove-button-sidebar:hover{
+	color: white;
+        background-color:#ccc;
+}
+ button.add-friend-button-sidebar{
+	background-color:#6393c0;
+}
+ button.add-love-button-sidebar{
+	background-color:#e2476b;
+}
+ button.add-career-button-sidebar{
+	background-color:#dbce00;
+}
+ button.add-friend-button-sidebar:hover,
+ button.add-love-button-sidebar:hover,
+ button.add-career-button-sidebar:hover{
+	background-color:#080049;
+        color:white;
+	cursor:pointer;
+
+}
+ button.add-friend-button-sidebar:disabled,
+ button.add-love-button-sidebar:disabled,
+ button.add-career-button-sidebar:disabled{
+	background-color:#ccc;
+        color:white;
+	cursor:not-allowed;
+
+}
+
+.owner .RequestButtonDeny
+{
+    	width:170px;
+	border:0;
+	color: #aaa;
+        border:1px solid #ccc;
+        background-color: white;
+	border-radius:25px;
+	padding: 7px 35px 7px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        cursor:pointer;
+}
+.owner .RequestButtonDeny:disabled,
+.owner .RequestButtonDeny:hover
+{
+    	background-color:#ccc;
+        color:white;
+	cursor:pointer;
+}
+.owner .RequestButtonDeny:disabled{cursor:not-allowed;}
+
+
+
+
+
+
+
+
+.newest-by-zodiac-sidebar{
+    
+}
+#boxed-space > .side-space > .newest-gritters-sidebar{
+  	text-align:center;
+	font-family:sans-serif,verdana;
+	font-size:12px;
+}
+#boxed-space > .side-space > .newest-gritters-sidebar h2{
+	text-align:center;
+	font-family:sans-serif,verdana;
+	font-size:14px;
+	color:#080049;
+}
+	
+#boxed-space > .side-space > .owner{
+	text-align:center;
+	font-family:sans-serif,verdana;
+	font-size:12px;
+}
+
+	
+p > .quote-sidebar{
+	font-family:sans-serif,verdana;
+	font-size:11px;
+	margin:9px;
+	color:#898989;
+	display:block;
+}
+
+a.auto-bio-link-sidebar{
+	color:#080049;
+	text-decoration:none;
+	font-weight:normal;
+}
+a.zodiac-link-sidebar{
+	color:#080049;
+	text-decoration:none;
+	font-weight:normal;
+}

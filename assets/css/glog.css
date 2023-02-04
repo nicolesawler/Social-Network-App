@@ -1,0 +1,248 @@
+input::-webkit-input-placeholder {
+color: #ccc !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: #ccc !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #ccc !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: #ccc !important;  
+}
+textarea::-webkit-input-placeholder {
+color: #ccc !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: #ccc !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: #ccc !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: #ccc !important;  
+}
+
+.owner-title{
+	width:655px;
+	margin: 0px auto 0px auto;
+	padding:10px;
+	border:1px solid #080049;
+	display: block;
+	font-size:12px;
+	font-family: verdana;
+        text-align:center;
+	background-color:#080049;
+	color:white;
+	
+}
+input.glog-title{
+	width:645px;
+	margin: 20px auto 5px auto;
+	padding:15px;
+	border:1px solid #ccc;
+	border-radius:  10px 10px 0 0;
+	display: block;
+	font-size:14px;
+	font-family: verdana;
+	color:#474747;
+        text-align:left;
+	
+	
+}
+input.glog-title:focus{
+	outline: none;
+}
+
+textarea.glog-write-chapter{
+	width:650px;
+	margin: 5px auto 5px auto;
+	padding:15px;
+	border:1px solid #ccc;
+	display: block;
+	font-size:14px;
+        line-height:22px;
+	color:#474747;
+	width:645px;
+	font-family:verdana;
+	font-weight:normal;
+        border-radius: 0 0 10px 10px;
+	resize: none;
+	height:500px;
+	
+}
+textarea.glog-write-chapter:focus{
+	outline: none;
+	resize: none;
+}
+
+
+
+
+button.btn-glog-publish{
+	background-color:#080049;
+	color:white;
+	padding:  10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 10px 10px 15px;
+	
+}
+button.btn-glog-private{
+	padding:  10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    color: #474747;
+    border: 0;
+    text-align: center;
+    margin:10px 10px 0px 0;
+}
+button.btn-glog-delete{
+	background-color:white;
+	color:#080049;
+	padding:  10px 20px 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 10px 10px 0px;
+	
+}
+
+
+
+
+
+div.glog-chapter{
+	width:650px;
+	margin: 5px auto 5px auto;
+	padding:12px;
+	border:1px solid #080049;
+	background-color:white;
+	border-radius:0 0 0 0;
+	display: block;
+	font-size:14px;
+	line-height:20px;
+	font-family: verdana;
+	color:black;
+	resize: none;
+	height:20px;
+	
+}
+
+
+#edit-key button{
+	float:right;
+	background-color: transparent;
+	border:0;
+	color:white;
+	font-weight:bold;
+	margin-top:-5px;
+	outline: none;
+}
+
+
+
+.bookchapters {
+    font-family:verdana, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+
+}
+.bookchapters ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.bookchapters li {
+    margin:0;
+    padding:0;
+}
+.bookchapters [type=radio], .bookchapters [type=checkbox] {
+    display:none;
+}
+.bookchapters label {
+    display:block;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    	width:645px;
+	margin: 0px auto 0px auto;
+	padding:15px;
+	border:0;
+	border-radius:0px 5px 0px 5px;
+	display: block;
+	font-size:12px;
+	font-family:verdana;
+	resize: none;
+	text-transform: capitalize;
+}
+.bookchapters label small{
+    color:#aaa;
+}
+.bookchapters .N{
+	background-color:white;
+	color:#474747;
+        border:1px solid #ccc;
+}
+.bookchapters .Y{
+	background-color:#eee;
+	color:#474747;
+         border:1px solid #ccc;
+}
+.bookchapters ul li label:hover, .bookchapters [type=radio]:checked ~ label, .bookchapters [type=checkbox]:checked ~ label {
+	background-color:#080049;/*hover*/
+	color:white;
+	border:0;
+}
+.bookchapters .content {
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.bookchapters p {
+   padding:20px;
+
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border:0;
+    background-color:#080049;/*selected*/
+    color:white;
+}
+.vertical ul li label:hover {
+}
+.vertical ul li .content {
+    height:0px;
+    width:660px;
+    margin: 5px auto 5px auto;
+    border:0;
+    background-color:white;
+    color:black;
+
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:300px;
+    border:1px solid #ddd;/*borderaround opening*/
+}

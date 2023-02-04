@@ -1,0 +1,1272 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GWIcons WebFont</title>
+    
+    <link rel="stylesheet" type="text/css" href="GWIcons.css">
+    
+    <meta charset="UTF-8">
+    <style>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+        display: block;
+    }
+    body {
+        line-height: 1;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    blockquote, q {
+        quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    body {
+        font-family: 'Varela Round', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        color: #222;
+    }
+    a {
+        color: #333;
+        border-bottom: 1px solid #a9fd00;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    [class^="gw-"]:before, [class*=" gw-"]:before, [class^="gw-"]:after, [class*=" gw-"]:after {
+        font-family: GWIcons;
+        font-size: 30px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #333;
+    }
+    .wrapper {
+        max-width: 600px;
+        margin: auto;
+        padding: 0 1em;
+    }
+    .title {
+        font-size: 1.25em;
+        text-align: center;
+        margin-bottom: 1em;
+        text-transform: uppercase;
+    }
+    header {
+        text-align: center;
+        background-color: #222;
+        color: #fff;
+        padding: 1em;
+    }
+    header .logo {
+        width: 210px;
+        height: 38px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 1em;
+        border: none;
+    }
+    header strong {
+        font-size: 1.95em;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+    }
+    .demo {
+        margin: 2em auto;
+        line-height: 1.25em;
+    }
+    .demo ul li {
+        margin-bottom: 1em;
+    }
+    .demo ul li .num {
+        color: #222;
+        border-radius: 20px;
+        display: inline-block;
+        width: 26px;
+        padding: 3px;
+        height: 26px;
+        text-align: center;
+        margin-right: 0.5em;
+        border: 1px solid #222;
+    }
+    .demo ul li code {
+        background-color: #222;
+        border-radius: 4px;
+        padding: 0.25em 0.5em;
+        display: inline-block;
+        color: #fff;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        font-weight: lighter;
+        margin-top: 1em;
+        font-size: 0.8em;
+        word-break: break-all;
+    }
+    .demo ul li code.big {
+        padding: 1em;
+        font-size: 0.9em;
+    }
+    .demo ul li code .red {
+        color: #EF3159;
+    }
+    .demo ul li code .green {
+        color: #ACFF65;
+    }
+    .demo ul li code .yellow {
+        color: #FFFF99;
+    }
+    .demo ul li code .blue {
+        color: #99D3FF;
+    }
+    .demo ul li code .purple {
+        color: #A295FF;
+    }
+    .demo ul li code .dots {
+        margin-top: 0.5em;
+        display: block;
+    }
+    #glyphs {
+        border-bottom: 1px solid #ccc;
+        padding: 2em 0;
+        text-align: center;
+    }
+    .glyph {
+        display: inline-block;
+        width: 9em;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        background: #FFF;
+    }
+    .glyph .glyph-icon {
+        padding: 10px;
+        display: block;
+        font-family:"GWIcons";
+        font-size: 64px;
+        line-height: 1;
+    }
+    .glyph .glyph-icon:before {
+        font-size: 64px;
+        color: #222;
+        margin-left: 0;
+    }
+    .class-name {
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px 4px 0 0;
+        padding: 0.5em;
+        color: #FFFF99;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    .author-name {
+        font-size: 0.6em;
+        background-color: #fcfcfd;
+        border: 1px solid #DEDEE4;
+        border-top: 0;
+        border-radius: 0 0 4px 4px;
+        padding: 0.5em;
+    }
+    .class-name:last-child {
+        font-size: 10px;
+        color:#888;
+    }
+    .class-name:last-child a {
+        font-size: 10px;
+        color:#555;
+    }
+    .class-name:last-child a:hover {
+        color:#a9fd00;
+    }
+    .glyph > input {
+        display: block;
+        width: 100px;
+        margin: 5px auto;
+        text-align: center;
+        font-size: 12px;
+        cursor: text;
+    }
+    .glyph > input.icon-input {
+        font-family:"GWIcons";
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .attribution .title {
+        margin-top: 2em;
+    }
+    .attribution textarea {
+        background-color: #fcfcfd;
+        padding: 1em;
+        border: none;
+        box-shadow: none;
+        border: 1px solid #DEDEE4;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        height: 150px;
+        font-size: 0.8em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+        -webkit-appearance: none;
+    }
+    .iconsuse {
+        margin: 2em auto;
+        text-align: center;
+        max-width: 1200px;
+    }
+    .iconsuse:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    .iconsuse .image {
+        float: left;
+        width: 25%;
+        padding: 0 1em;
+    }
+    .iconsuse .image p {
+        margin-bottom: 1em;
+    }
+    .iconsuse .image span {
+        display: block;
+        font-size: 0.65em;
+        background-color: #222;
+        color: #fff;
+        border-radius: 4px;
+        padding: 0.5em;
+        color: #FFFF99;
+        margin-top: 1em;
+        font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New, monospace;
+    }
+    #footer {
+        text-align: center;
+        background-color: #4C5B5C;
+        color: #7c9192;
+        padding: 1em;
+    }
+    #footer a {
+        border: none;
+        color: #a9fd00;
+        font-weight: normal;
+    }
+    @media (max-width: 960px) {
+        .iconsuse .image {
+            width: 50%;
+        }
+    }
+    @media (max-width: 560px) {
+        .iconsuse .image {
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+
+<body class="characters-off">
+
+    <header>
+        <a href="http://www.GWIcons.com" target="_blank" class="logo">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" viewBox="0 0 560.875 102.036" enable-background="new 0 0 560.875 102.036" xml:space="preserve">
+                <defs>
+                </defs>
+                <g>
+                                     </g>
+                </g>
+            </svg>
+        </a>
+        <strong>Font Demo</strong>
+    </header>
+
+
+    <section class="demo wrapper">
+
+        <p class="title">Instructions</p>
+
+        <ul>
+            <li>
+                <span class="num">1</span>Copy the "Fonts" files and CSS files to your website CSS folder.
+            </li>
+            <li>
+                <span class="num">2</span>Add the CSS link to your website source code on header.
+                <code class="big">
+                    &lt;<span class="red">head</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;<span class="red">link</span> <span class="green">rel</span>=<span class="yellow">"stylesheet"</span> <span class="green">type</span>=<span class="yellow">"text/css"</span> <span class="green">href</span>=<span class="yellow">"your_website_domain/css_root/GWIcons.css"</span>&gt;
+                    <br/><span class="dots">...</span>
+                    <br/>&lt;/<span class="red">head</span>&gt;
+                </code>
+            </li>
+
+            <li>
+                <p>
+                    <span class="num">3</span>Use the icon class on <code>"<span class="blue">display</span>:<span class="purple"> inline</span>"</code> elements:
+                    <br />
+                    Use example: <code>&lt;<span class="red">i</span> <span class="green">class</span>=<span class="yellow">&quot;gw-airplane49&quot;</span>&gt;&lt;/<span class="red">i</span>&gt;</code> or <code>&lt;<span class="red">span</span> <span class="green">class</span>=<span class="yellow">&quot;gw-airplane49&quot;</span>&gt;&lt;/<span class="red">span</span>&gt;</code>
+            </li>
+        </ul>
+
+    </section>
+
+
+
+
+   <section id="glyphs">          
+    
+      
+        <div class="glyph"><div class="glyph-icon gw-eye-1"></div>
+            <div class="class-name">.gw-eye-1</div>
+            <div class="author-name">Author: <a data-file="001-eye-1" href="https://www.GWIcons.com/authors/gregor-cresnar">Gregor Cresnar</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-health-care"></div>
+            <div class="class-name">.gw-health-care</div>
+            <div class="author-name">Author: <a data-file="002-health-care" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-delete-1"></div>
+            <div class="class-name">.gw-delete-1</div>
+            <div class="author-name">Author: <a data-file="003-delete-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-can"></div>
+            <div class="class-name">.gw-can</div>
+            <div class="author-name">Author: <a data-file="004-can" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-12"></div>
+            <div class="class-name">.gw-people-12</div>
+            <div class="author-name">Author: <a data-file="005-people-12" href="https://www.GWIcons.com/authors/business-dubai">Business Dubai</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-silhouette"></div>
+            <div class="class-name">.gw-silhouette</div>
+            <div class="author-name">Author: <a data-file="006-silhouette" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-map"></div>
+            <div class="class-name">.gw-map</div>
+            <div class="author-name">Author: <a data-file="007-map" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-handpower"></div>
+            <div class="class-name">.gw-handpower</div>
+            <div class="author-name">Author: <a data-file="008-hand-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-ask"></div>
+            <div class="class-name">.gw-ask</div>
+            <div class="author-name">Author: <a data-file="009-ask" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-goalwoke"></div>
+            <div class="class-name">.gw-goalwoke</div>
+            <div class="author-name">Author: <a data-file="010-religion-4" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-islam"></div>
+            <div class="class-name">.gw-islam</div>
+            <div class="author-name">Author: <a data-file="017-islam" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-car-garage"></div>
+            <div class="class-name">.gw-car-garage</div>
+            <div class="author-name">Author: <a data-file="018-car-garage" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-baby"></div>
+            <div class="class-name">.gw-baby</div>
+            <div class="author-name">Author: <a data-file="019-people-11" href="https://www.GWIcons.com/authors/those-icons">Those Icons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-toy"></div>
+            <div class="class-name">.gw-toy</div>
+            <div class="author-name">Author: <a data-file="020-toy" href="https://www.GWIcons.com/authors/creaticca-creative-agency">Creaticca Creative Agency</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-game"></div>
+            <div class="class-name">.gw-game</div>
+            <div class="author-name">Author: <a data-file="021-game" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-scientist-1"></div>
+            <div class="class-name">.gw-scientist-1</div>
+            <div class="author-name">Author: <a data-file="022-scientist-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-scientist"></div>
+            <div class="class-name">.gw-scientist</div>
+            <div class="author-name">Author: <a data-file="023-scientist" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-pulse"></div>
+            <div class="class-name">.gw-pulse</div>
+            <div class="author-name">Author: <a data-file="024-pulse" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-open-book"></div>
+            <div class="class-name">.gw-open-book</div>
+            <div class="author-name">Author: <a data-file="025-open-book" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-world"></div>
+            <div class="class-name">.gw-world</div>
+            <div class="author-name">Author: <a data-file="026-world" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-worldhand"></div>
+            <div class="class-name">.gw-worldhand</div>
+            <div class="author-name">Author: <a data-file="027-nature-1" href="https://www.GWIcons.com/authors/cursor-creative">Cursor Creative</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-apple"></div>
+            <div class="class-name">.gw-apple</div>
+            <div class="author-name">Author: <a data-file="028-new-york-apple-symbol" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heartsmatch"></div>
+            <div class="class-name">.gw-heartsmatch</div>
+            <div class="author-name">Author: <a data-file="029-hearts-outline-icon" href="https://www.GWIcons.com/authors/bogdan-rosu">Bogdan Rosu</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profits"></div>
+            <div class="class-name">.gw-profits</div>
+            <div class="author-name">Author: <a data-file="030-profits" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-trophystar"></div>
+            <div class="class-name">.gw-trophystar</div>
+            <div class="author-name">Author: <a data-file="031-trophy-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-cup"></div>
+            <div class="class-name">.gw-cup</div>
+            <div class="author-name">Author: <a data-file="033-cup" href="https://www.GWIcons.com/authors/oleksandr-yershov">Oleksandr Yershov</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-25"></div>
+            <div class="class-name">.gw-profile-25</div>
+            <div class="author-name">Author: <a data-file="034-profile-25" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-24"></div>
+            <div class="class-name">.gw-profile-24</div>
+            <div class="author-name">Author: <a data-file="035-profile-24" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-23"></div>
+            <div class="class-name">.gw-profile-23</div>
+            <div class="author-name">Author: <a data-file="036-profile-23" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-22"></div>
+            <div class="class-name">.gw-profile-22</div>
+            <div class="author-name">Author: <a data-file="037-profile-22" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-21"></div>
+            <div class="class-name">.gw-profile-21</div>
+            <div class="author-name">Author: <a data-file="038-profile-21" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-signs-1"></div>
+            <div class="class-name">.gw-signs-1</div>
+            <div class="author-name">Author: <a data-file="039-signs-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-20"></div>
+            <div class="class-name">.gw-profile-20</div>
+            <div class="author-name">Author: <a data-file="040-profile-20" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-19"></div>
+            <div class="class-name">.gw-profile-19</div>
+            <div class="author-name">Author: <a data-file="041-profile-19" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-18"></div>
+            <div class="class-name">.gw-profile-18</div>
+            <div class="author-name">Author: <a data-file="042-profile-18" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-17"></div>
+            <div class="class-name">.gw-profile-17</div>
+            <div class="author-name">Author: <a data-file="043-profile-17" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-16"></div>
+            <div class="class-name">.gw-profile-16</div>
+            <div class="author-name">Author: <a data-file="044-profile-16" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-15"></div>
+            <div class="class-name">.gw-profile-15</div>
+            <div class="author-name">Author: <a data-file="045-profile-15" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-time"></div>
+            <div class="class-name">.gw-time</div>
+            <div class="author-name">Author: <a data-file="046-time" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-14"></div>
+            <div class="class-name">.gw-profile-14</div>
+            <div class="author-name">Author: <a data-file="047-profile-14" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-6"></div>
+            <div class="class-name">.gw-technology-6</div>
+            <div class="author-name">Author: <a data-file="048-technology-6" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-13"></div>
+            <div class="class-name">.gw-profile-13</div>
+            <div class="author-name">Author: <a data-file="049-profile-13" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-12"></div>
+            <div class="class-name">.gw-profile-12</div>
+            <div class="author-name">Author: <a data-file="050-profile-12" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-favorite"></div>
+            <div class="class-name">.gw-favorite</div>
+            <div class="author-name">Author: <a data-file="051-favorite" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-11"></div>
+            <div class="class-name">.gw-profile-11</div>
+            <div class="author-name">Author: <a data-file="052-profile-11" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-10"></div>
+            <div class="class-name">.gw-profile-10</div>
+            <div class="author-name">Author: <a data-file="053-profile-10" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-9"></div>
+            <div class="class-name">.gw-profile-9</div>
+            <div class="author-name">Author: <a data-file="054-profile-9" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-agenda"></div>
+            <div class="class-name">.gw-agenda</div>
+            <div class="author-name">Author: <a data-file="055-agenda" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-8"></div>
+            <div class="class-name">.gw-profile-8</div>
+            <div class="author-name">Author: <a data-file="056-profile-8" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-5"></div>
+            <div class="class-name">.gw-technology-5</div>
+            <div class="author-name">Author: <a data-file="057-technology-5" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-interface-1"></div>
+            <div class="class-name">.gw-interface-1</div>
+            <div class="author-name">Author: <a data-file="058-interface-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-7"></div>
+            <div class="class-name">.gw-profile-7</div>
+            <div class="author-name">Author: <a data-file="059-profile-7" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-6"></div>
+            <div class="class-name">.gw-profile-6</div>
+            <div class="author-name">Author: <a data-file="060-profile-6" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-shopping"></div>
+            <div class="class-name">.gw-shopping</div>
+            <div class="author-name">Author: <a data-file="061-shopping" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-6"></div>
+            <div class="class-name">.gw-multimedia-6</div>
+            <div class="author-name">Author: <a data-file="062-multimedia-6" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-5"></div>
+            <div class="class-name">.gw-multimedia-5</div>
+            <div class="author-name">Author: <a data-file="063-multimedia-5" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-4"></div>
+            <div class="class-name">.gw-multimedia-4</div>
+            <div class="author-name">Author: <a data-file="064-multimedia-4" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-5"></div>
+            <div class="class-name">.gw-profile-5</div>
+            <div class="author-name">Author: <a data-file="065-profile-5" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-4"></div>
+            <div class="class-name">.gw-profile-4</div>
+            <div class="author-name">Author: <a data-file="066-profile-4" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-3"></div>
+            <div class="class-name">.gw-profile-3</div>
+            <div class="author-name">Author: <a data-file="067-profile-3" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-2"></div>
+            <div class="class-name">.gw-profile-2</div>
+            <div class="author-name">Author: <a data-file="068-profile-2" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile-1"></div>
+            <div class="class-name">.gw-profile-1</div>
+            <div class="author-name">Author: <a data-file="069-profile-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-profile"></div>
+            <div class="class-name">.gw-profile</div>
+            <div class="author-name">Author: <a data-file="070-profile" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-6"></div>
+            <div class="class-name">.gw-user-6</div>
+            <div class="author-name">Author: <a data-file="071-user-6" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-5"></div>
+            <div class="class-name">.gw-user-5</div>
+            <div class="author-name">Author: <a data-file="072-user-5" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-4"></div>
+            <div class="class-name">.gw-user-4</div>
+            <div class="author-name">Author: <a data-file="073-user-4" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-3"></div>
+            <div class="class-name">.gw-user-3</div>
+            <div class="author-name">Author: <a data-file="074-user-3" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-2"></div>
+            <div class="class-name">.gw-user-2</div>
+            <div class="author-name">Author: <a data-file="075-user-2" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user-1"></div>
+            <div class="class-name">.gw-user-1</div>
+            <div class="author-name">Author: <a data-file="076-user-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-user"></div>
+            <div class="class-name">.gw-user</div>
+            <div class="author-name">Author: <a data-file="077-user" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-taurus"></div>
+            <div class="class-name">.gw-taurus</div>
+            <div class="author-name">Author: <a data-file="078-taurus" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-pisces"></div>
+            <div class="class-name">.gw-pisces</div>
+            <div class="author-name">Author: <a data-file="079-pisces" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-sagittarius"></div>
+            <div class="class-name">.gw-sagittarius</div>
+            <div class="author-name">Author: <a data-file="080-sagittarius" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-aries"></div>
+            <div class="class-name">.gw-aries</div>
+            <div class="author-name">Author: <a data-file="081-aries" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-scorpio"></div>
+            <div class="class-name">.gw-scorpio</div>
+            <div class="author-name">Author: <a data-file="082-scorpio" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-libra"></div>
+            <div class="class-name">.gw-libra</div>
+            <div class="author-name">Author: <a data-file="083-libra" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-virgo"></div>
+            <div class="class-name">.gw-virgo</div>
+            <div class="author-name">Author: <a data-file="084-virgo" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-leo"></div>
+            <div class="class-name">.gw-leo</div>
+            <div class="author-name">Author: <a data-file="085-leo" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-gemini"></div>
+            <div class="class-name">.gw-gemini</div>
+            <div class="author-name">Author: <a data-file="086-gemini" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-cancer"></div>
+            <div class="class-name">.gw-cancer</div>
+            <div class="author-name">Author: <a data-file="087-cancer" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-capricorn"></div>
+            <div class="class-name">.gw-capricorn</div>
+            <div class="author-name">Author: <a data-file="088-capricorn" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-aquarius"></div>
+            <div class="class-name">.gw-aquarius</div>
+            <div class="author-name">Author: <a data-file="089-aquarius" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-web-2"></div>
+            <div class="class-name">.gw-web-2</div>
+            <div class="author-name">Author: <a data-file="090-web-2" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-web-1"></div>
+            <div class="class-name">.gw-web-1</div>
+            <div class="author-name">Author: <a data-file="091-web-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-tea-cup"></div>
+            <div class="class-name">.gw-tea-cup</div>
+            <div class="author-name">Author: <a data-file="092-tea-cup" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-coffee-cup"></div>
+            <div class="class-name">.gw-coffee-cup</div>
+            <div class="author-name">Author: <a data-file="093-coffee-cup" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-security"></div>
+            <div class="class-name">.gw-security</div>
+            <div class="author-name">Author: <a data-file="094-security" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-10"></div>
+            <div class="class-name">.gw-people-10</div>
+            <div class="author-name">Author: <a data-file="095-people-10" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-9"></div>
+            <div class="class-name">.gw-people-9</div>
+            <div class="author-name">Author: <a data-file="096-people-9" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-8"></div>
+            <div class="class-name">.gw-people-8</div>
+            <div class="author-name">Author: <a data-file="097-people-8" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-4"></div>
+            <div class="class-name">.gw-technology-4</div>
+            <div class="author-name">Author: <a data-file="098-technology-4" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-internet-2"></div>
+            <div class="class-name">.gw-internet-2</div>
+            <div class="author-name">Author: <a data-file="099-internet-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-3"></div>
+            <div class="class-name">.gw-multimedia-3</div>
+            <div class="author-name">Author: <a data-file="100-multimedia-3" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-3"></div>
+            <div class="class-name">.gw-technology-3</div>
+            <div class="author-name">Author: <a data-file="101-technology-3" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-7"></div>
+            <div class="class-name">.gw-people-7</div>
+            <div class="author-name">Author: <a data-file="102-people-7" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-6"></div>
+            <div class="class-name">.gw-people-6</div>
+            <div class="author-name">Author: <a data-file="103-people-6" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-5"></div>
+            <div class="class-name">.gw-people-5</div>
+            <div class="author-name">Author: <a data-file="104-people-5" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-internet-1"></div>
+            <div class="class-name">.gw-internet-1</div>
+            <div class="author-name">Author: <a data-file="105-internet-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock-5"></div>
+            <div class="class-name">.gw-clock-5</div>
+            <div class="author-name">Author: <a data-file="106-clock-5" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-4"></div>
+            <div class="class-name">.gw-people-4</div>
+            <div class="author-name">Author: <a data-file="107-people-4" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-3"></div>
+            <div class="class-name">.gw-people-3</div>
+            <div class="author-name">Author: <a data-file="108-people-3" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-2"></div>
+            <div class="class-name">.gw-technology-2</div>
+            <div class="author-name">Author: <a data-file="109-technology-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-2"></div>
+            <div class="class-name">.gw-multimedia-2</div>
+            <div class="author-name">Author: <a data-file="110-multimedia-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-hands-1"></div>
+            <div class="class-name">.gw-hands-1</div>
+            <div class="author-name">Author: <a data-file="111-hands-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-internet"></div>
+            <div class="class-name">.gw-internet</div>
+            <div class="author-name">Author: <a data-file="112-internet" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology-1"></div>
+            <div class="class-name">.gw-technology-1</div>
+            <div class="author-name">Author: <a data-file="113-technology-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-square"></div>
+            <div class="class-name">.gw-square</div>
+            <div class="author-name">Author: <a data-file="114-square" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-medical-1"></div>
+            <div class="class-name">.gw-medical-1</div>
+            <div class="author-name">Author: <a data-file="115-medical-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-medical"></div>
+            <div class="class-name">.gw-medical</div>
+            <div class="author-name">Author: <a data-file="116-medical" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-business-2"></div>
+            <div class="class-name">.gw-business-2</div>
+            <div class="author-name">Author: <a data-file="117-business-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-technology"></div>
+            <div class="class-name">.gw-technology</div>
+            <div class="author-name">Author: <a data-file="118-technology" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-2"></div>
+            <div class="class-name">.gw-people-2</div>
+            <div class="author-name">Author: <a data-file="119-people-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia-1"></div>
+            <div class="class-name">.gw-multimedia-1</div>
+            <div class="author-name">Author: <a data-file="120-multimedia-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-science"></div>
+            <div class="class-name">.gw-science</div>
+            <div class="author-name">Author: <a data-file="121-science" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people-1"></div>
+            <div class="class-name">.gw-people-1</div>
+            <div class="author-name">Author: <a data-file="122-people-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-multimedia"></div>
+            <div class="class-name">.gw-multimedia</div>
+            <div class="author-name">Author: <a data-file="123-multimedia" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-file-2"></div>
+            <div class="class-name">.gw-file-2</div>
+            <div class="author-name">Author: <a data-file="124-file-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-signs"></div>
+            <div class="class-name">.gw-signs</div>
+            <div class="author-name">Author: <a data-file="125-signs" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-transport"></div>
+            <div class="class-name">.gw-transport</div>
+            <div class="author-name">Author: <a data-file="126-transport" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock-4"></div>
+            <div class="class-name">.gw-clock-4</div>
+            <div class="author-name">Author: <a data-file="127-clock-4" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-blind"></div>
+            <div class="class-name">.gw-blind</div>
+            <div class="author-name">Author: <a data-file="128-blind" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-muted"></div>
+            <div class="class-name">.gw-muted</div>
+            <div class="author-name">Author: <a data-file="129-muted" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-monitor"></div>
+            <div class="class-name">.gw-monitor</div>
+            <div class="author-name">Author: <a data-file="130-monitor" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-cloud-computing"></div>
+            <div class="class-name">.gw-cloud-computing</div>
+            <div class="author-name">Author: <a data-file="131-cloud-computing" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-padlock"></div>
+            <div class="class-name">.gw-padlock</div>
+            <div class="author-name">Author: <a data-file="132-padlock" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-file-1"></div>
+            <div class="class-name">.gw-file-1</div>
+            <div class="author-name">Author: <a data-file="133-file-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-file"></div>
+            <div class="class-name">.gw-file</div>
+            <div class="author-name">Author: <a data-file="134-file" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-placeholder"></div>
+            <div class="class-name">.gw-placeholder</div>
+            <div class="author-name">Author: <a data-file="135-placeholder" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-speech-bubble"></div>
+            <div class="class-name">.gw-speech-bubble</div>
+            <div class="author-name">Author: <a data-file="136-speech-bubble" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-saturn"></div>
+            <div class="class-name">.gw-saturn</div>
+            <div class="author-name">Author: <a data-file="137-saturn" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-home-1"></div>
+            <div class="class-name">.gw-home-1</div>
+            <div class="author-name">Author: <a data-file="138-home-1" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-wifi"></div>
+            <div class="class-name">.gw-wifi</div>
+            <div class="author-name">Author: <a data-file="139-wifi" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-photo-camera"></div>
+            <div class="class-name">.gw-photo-camera</div>
+            <div class="author-name">Author: <a data-file="140-photo-camera" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-phone-call"></div>
+            <div class="class-name">.gw-phone-call</div>
+            <div class="author-name">Author: <a data-file="141-phone-call" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock-3"></div>
+            <div class="class-name">.gw-clock-3</div>
+            <div class="author-name">Author: <a data-file="142-clock-3" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock-2"></div>
+            <div class="class-name">.gw-clock-2</div>
+            <div class="author-name">Author: <a data-file="143-clock-2" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-emoticon"></div>
+            <div class="class-name">.gw-emoticon</div>
+            <div class="author-name">Author: <a data-file="144-emoticon" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-night"></div>
+            <div class="class-name">.gw-night</div>
+            <div class="author-name">Author: <a data-file="145-night" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock-1"></div>
+            <div class="class-name">.gw-clock-1</div>
+            <div class="author-name">Author: <a data-file="146-clock-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-nature"></div>
+            <div class="class-name">.gw-nature</div>
+            <div class="author-name">Author: <a data-file="148-nature" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-religion"></div>
+            <div class="class-name">.gw-religion</div>
+            <div class="author-name">Author: <a data-file="149-religion" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-money-1"></div>
+            <div class="class-name">.gw-money-1</div>
+            <div class="author-name">Author: <a data-file="150-money-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-hand-1"></div>
+            <div class="class-name">.gw-hand-1</div>
+            <div class="author-name">Author: <a data-file="151-hand-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-gestures"></div>
+            <div class="class-name">.gw-gestures</div>
+            <div class="author-name">Author: <a data-file="152-gestures" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-key"></div>
+            <div class="class-name">.gw-key</div>
+            <div class="author-name">Author: <a data-file="153-key" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-shapes-3"></div>
+            <div class="class-name">.gw-shapes-3</div>
+            <div class="author-name">Author: <a data-file="154-shapes-3" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-clock"></div>
+            <div class="class-name">.gw-clock</div>
+            <div class="author-name">Author: <a data-file="155-clock" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heart-2"></div>
+            <div class="class-name">.gw-heart-2</div>
+            <div class="author-name">Author: <a data-file="156-heart-2" href="https://www.GWIcons.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-interface"></div>
+            <div class="class-name">.gw-interface</div>
+            <div class="author-name">Author: <a data-file="157-interface" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heart-1"></div>
+            <div class="class-name">.gw-heart-1</div>
+            <div class="author-name">Author: <a data-file="158-heart-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-money"></div>
+            <div class="class-name">.gw-money</div>
+            <div class="author-name">Author: <a data-file="159-money" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-black"></div>
+            <div class="class-name">.gw-black</div>
+            <div class="author-name">Author: <a data-file="160-black" href="https://www.GWIcons.com/authors/ocha">OCHA</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-businesshands"></div>
+            <div class="class-name">.gw-businesshands</div>
+            <div class="author-name">Author: <a data-file="161-business-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-hands"></div>
+            <div class="class-name">.gw-hands</div>
+            <div class="author-name">Author: <a data-file="162-hands" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-people"></div>
+            <div class="class-name">.gw-people</div>
+            <div class="author-name">Author: <a data-file="163-people" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-hand"></div>
+            <div class="class-name">.gw-hand</div>
+            <div class="author-name">Author: <a data-file="164-hand" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heart"></div>
+            <div class="class-name">.gw-heart</div>
+            <div class="author-name">Author: <a data-file="165-heart" href="https://www.GWIcons.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-business"></div>
+            <div class="class-name">.gw-business</div>
+            <div class="author-name">Author: <a data-file="166-business" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-coach-1"></div>
+            <div class="class-name">.gw-coach-1</div>
+            <div class="author-name">Author: <a data-file="167-coach-1" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-coach"></div>
+            <div class="class-name">.gw-coach</div>
+            <div class="author-name">Author: <a data-file="168-coach" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-agreement"></div>
+            <div class="class-name">.gw-agreement</div>
+            <div class="author-name">Author: <a data-file="169-agreement" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-home"></div>
+            <div class="class-name">.gw-home</div>
+            <div class="author-name">Author: <a data-file="170-home" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-eye"></div>
+            <div class="class-name">.gw-eye</div>
+            <div class="author-name">Author: <a data-file="171-eye" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-open-lock"></div>
+            <div class="class-name">.gw-open-lock</div>
+            <div class="author-name">Author: <a data-file="172-open-lock" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-edit"></div>
+            <div class="class-name">.gw-edit</div>
+            <div class="author-name">Author: <a data-file="173-edit" href="https://www.GWIcons.com/authors/egor-rumyantsev">Egor Rumyantsev</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-trash-can"></div>
+            <div class="class-name">.gw-trash-can</div>
+            <div class="author-name">Author: <a data-file="174-trash-can" href="https://www.GWIcons.com/authors/sergiu-bagrin">Sergiu Bagrin</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-delete"></div>
+            <div class="class-name">.gw-delete</div>
+            <div class="author-name">Author: <a data-file="175-delete" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-chat-1"></div>
+            <div class="class-name">.gw-chat-1</div>
+            <div class="author-name">Author: <a data-file="176-chat-1" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-chat"></div>
+            <div class="class-name">.gw-chat</div>
+            <div class="author-name">Author: <a data-file="177-chat" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heartshapesoutline"></div>
+            <div class="class-name">.gw-heartshapesoutline</div>
+            <div class="author-name">Author: <a data-file="178-shapes-2" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-heartshapes"></div>
+            <div class="class-name">.gw-heartshapes</div>
+            <div class="author-name">Author: <a data-file="180-shapes" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+        <div class="glyph"><div class="glyph-icon gw-text-bubble"></div>
+            <div class="class-name">.gw-text-bubble</div>
+            <div class="author-name">Author: <a data-file="181-text-bubble" href="http://www.freepik.com">Freepik</a> </div> 
+        </div>        
+        
+
+    </section>
+
+
+
+    <section class="attribution wrapper"   style="text-align:center;">
+
+      <div class="title">License and attribution:</div><div class="attrDiv">Font generated by <a href="http://www.GWIcons.com">GWIcons.com</a>. <div><p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="034-profile-25" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a>, <a data-file="002-health-care" href="http://www.freepik.com">Freepik</a>, <a data-file="174-trash-can" href="https://www.GWIcons.com/authors/sergiu-bagrin">Sergiu Bagrin</a>, <a data-file="173-edit" href="https://www.GWIcons.com/authors/egor-rumyantsev">Egor Rumyantsev</a>, <a data-file="156-heart-2" href="https://www.GWIcons.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="160-black" href="https://www.GWIcons.com/authors/ocha">OCHA</a>, <a data-file="094-security" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a>, <a data-file="033-cup" href="https://www.GWIcons.com/authors/oleksandr-yershov">Oleksandr Yershov</a>, <a data-file="027-nature-1" href="https://www.GWIcons.com/authors/cursor-creative">Cursor Creative</a>, <a data-file="029-hearts-outline-icon" href="https://www.GWIcons.com/authors/bogdan-rosu">Bogdan Rosu</a>, <a data-file="020-toy" href="https://www.GWIcons.com/authors/creaticca-creative-agency">Creaticca Creative Agency</a>, <a data-file="019-people-11" href="https://www.GWIcons.com/authors/those-icons">Those Icons</a>, <a data-file="005-people-12" href="https://www.GWIcons.com/authors/business-dubai">Business Dubai</a>, <a data-file="001-eye-1" href="https://www.GWIcons.com/authors/gregor-cresnar">Gregor Cresnar</a></p>  </div>
+      </div>
+      <div class="title">Copy the Attribution License:</div>
+
+    <textarea onclick="this.focus();this.select();">Font generated by &lt;a href=&quot;http://www.GWIcons.com&quot;&gt;GWIcons.com&lt;/a&gt;. <p>Under <a href="http://creativecommons.org/licenses/by/3.0/">CC</a>: <a data-file="034-profile-25" href="https://www.GWIcons.com/authors/smashicons">Smashicons</a>, <a data-file="002-health-care" href="http://www.freepik.com">Freepik</a>, <a data-file="174-trash-can" href="https://www.GWIcons.com/authors/sergiu-bagrin">Sergiu Bagrin</a>, <a data-file="173-edit" href="https://www.GWIcons.com/authors/egor-rumyantsev">Egor Rumyantsev</a>, <a data-file="156-heart-2" href="https://www.GWIcons.com/authors/zlatko-najdenovski">Zlatko Najdenovski</a>, <a data-file="160-black" href="https://www.GWIcons.com/authors/ocha">OCHA</a>, <a data-file="094-security" href="https://www.GWIcons.com/authors/iconnice">Iconnice</a>, <a data-file="033-cup" href="https://www.GWIcons.com/authors/oleksandr-yershov">Oleksandr Yershov</a>, <a data-file="027-nature-1" href="https://www.GWIcons.com/authors/cursor-creative">Cursor Creative</a>, <a data-file="029-hearts-outline-icon" href="https://www.GWIcons.com/authors/bogdan-rosu">Bogdan Rosu</a>, <a data-file="020-toy" href="https://www.GWIcons.com/authors/creaticca-creative-agency">Creaticca Creative Agency</a>, <a data-file="019-people-11" href="https://www.GWIcons.com/authors/those-icons">Those Icons</a>, <a data-file="005-people-12" href="https://www.GWIcons.com/authors/business-dubai">Business Dubai</a>, <a data-file="001-eye-1" href="https://www.GWIcons.com/authors/gregor-cresnar">Gregor Cresnar</a></p>  
+     </textarea>
+
+    </section>
+
+    <section class="iconsuse">
+
+          <div class="title">Examples:</div>            
+             
+            <div class="image">
+                <p>
+                    <i class="glyph-icon gw-eye-1"></i> 
+                    <span>&lt;i class=&quot;gw-eye-1&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon gw-health-care"></i> 
+                    <span>&lt;i class=&quot;gw-health-care&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon gw-delete-1"></i> 
+                    <span>&lt;i class=&quot;gw-delete-1&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+            
+            <div class="image">
+                <p>
+                    <i class="glyph-icon gw-can"></i> 
+                    <span>&lt;i class=&quot;gw-can&quot;&gt;&lt;/i&gt;</span>
+                </p>
+            </div>
+                       
+        </div>
+                            
+    </section>
+
+<div id="footer">
+    <div>Generated by <a href="http://www.GWIcons.com">GWIcons.com</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>

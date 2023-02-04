@@ -1,0 +1,302 @@
+/*
+Copyright 2017 nicolesawler.
+
+*/
+/* 
+    Created on : 31-Oct-2017, 2:43:21 PM
+    Author     : nicolesawler
+*/
+
+#page-box{
+    background-color:white;
+    border-color:#080049;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    padding:10px;
+    margin:0px auto 10px auto;
+    color:#080049;
+    width:680px;
+}
+#page-title{
+    background-color:#080049;
+    border:1px solid #080049;
+    border-bottom:0;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:10px auto 0px auto;
+    font-size:12px;
+    color:white;
+    width:690px;
+    height:25px;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+#page-note{
+    background-color:white;
+    border:0px solid #080049;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:15px auto 0px auto;
+    font-size:12px;
+    color:#080049;
+    width:660px;
+    height:25px;
+    text-align:center;
+    font-family:verdana;
+    font-weight:normal;
+}
+
+
+.matchbox{
+    border:1px solid #080049;
+    padding:10px;
+    width:295px;
+    height:50px;
+    float:left;
+    margin:10px 0px 10px 15px;
+    position: relative;
+}
+.mymatched-photo{
+    border:1px solid #080049;
+    float:left;
+    width:50px;
+    height:50px;
+    margin: 0 10px 0 0;
+    
+}
+button.AddMatchButtonSmall{
+        width:100px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#e2476b;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #e2476b;
+        text-align:center;
+        margin:10px 4px 5px 0px;
+        
+}
+button.AddCareerButtonSmall{
+        width:100px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#dbce00;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #dbce00;
+        text-align:center;
+        margin:10px 4px 5px 0px;
+        
+}
+button.ViewButtonSmall,button.AddMatchButtonSmall:disabled,button.AddCareerButtonSmall:disabled{
+        width:100px;
+	border:0;
+	color: #aaa;
+	border-radius:25px;
+	padding: 4px 5px 4px 5px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:white;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #ccc;
+        text-align:center;
+        margin:10px 2px 5px 2px;
+}
+button.AddMatchButtonSmall:disabled,button.AddCareerButtonSmall:disabled{
+    cursor:not-allowed;
+    background-color:#ccc;
+    color:white;
+}
+
+.zodiac [class^="gw-"]:before,
+.zodiac [class*=" gw-"]:before,
+.zodiac [class^="gw-"]:after,
+.zodiac  [class*=" gw-"]:after,
+#matchbox [class^="gw-"]:before,
+#matchbox  [class*=" gw-"]:before,
+#matchbox  [class^="gw-"]:after,
+#matchbox  [class*=" gw-"]:after{
+    font-size:50px;
+    float:left;
+    line-height:50px;
+    margin-right:10px;
+    margin-bottom:0px;
+    margin-left:0;
+    color:#967bb3;
+}
+#page-box [class^="gw-"]:before,
+#page-box  [class*=" gw-"]:before,
+#page-box  [class^="gw-"]:after,
+#page-box  [class*=" gw-"]:after{
+    font-size:100px;
+    margin-left:0;
+    color:#ccc;
+}
+#page-box  p{
+    color:#ccc;
+}
+#matchbox > .percent{
+    position:absolute;
+    top:-15px;
+    right:-10px;
+    color:white;
+    font-weight:bold;
+    border-radius:50%;
+    width:50px;
+    height:38px;
+    vertical-align: middle;
+    text-align:center;
+    z-index:9999;
+    padding-top:12px;
+    font-size:16px;
+    line-height:12px;
+}
+#matchbox > .percentC{
+    position:absolute;
+    top:-15px;
+    right:-10px;
+    color:white;
+    font-weight:bold;
+    border-radius:50% 50% 50% 1px;
+    width:50px;
+    height:38px;
+    vertical-align: middle;
+    text-align:center;
+    z-index:9999;
+    padding-top:10px;
+    font-size:16px;
+    line-height:12px;
+}
+#matchbox > .percent{
+    background-color:#e2476b;
+}
+#matchbox > .percentC{
+    background-color:#dbce00;
+}
+
+
+#matchbox > .percent small, #matchbox > .percentC small{
+    font-size:8px;
+    line-height:8px;
+    font-weight:normal
+}
+#matchbox > .zodiac{
+    position:absolute;
+    bottom:0px;
+    right:5px;
+    color:#080049;
+    width:20px;
+    height:20px;
+    font-size:10px
+}
+
+
+[title]{
+	position:relative;
+        color:#fff;
+        cursor:help;
+        
+}
+[title]:after{
+	content:attr(title);
+	color:#fff;
+	background:#080049;
+	position:absolute;
+	left:-9999px;
+	opacity:0;
+	bottom:100%;
+	white-space:nowrap;
+	-webkit-transition:0.50s linear opacity;
+        padding:10px;
+        border-radius:10px;
+        font-family:verdana;
+        font-size:9px;
+        font-weight:bold;
+        cursor:help;
+}
+[title]:hover:after{
+	left:0px;
+	opacity:1;
+        padding:5px 10px 5px 10px;
+        color:#fff;
+        font-size:9px;
+        font-weight:bold;
+        margin-left:-9px;
+        margin-bottom:-10px;
+        cursor:help;
+}
+
+
+
+
+
+button.update-love-profile,
+button.update-career-profile{
+    background-color:white;
+    border:1px solid #ccc;
+    color:#aaa;
+    text-align:center;
+    padding:10px 15px 10px 15px;
+    font-size:16px;
+    border-radius:20px;
+    float:left;
+    cursor:pointer;
+}
+button.update-love-profile:hover,
+button.update-career-profile:hover{
+    background-color:#080049;
+    border:1px solid #080049;
+    color:#fff;
+}
+button.generate-new-matches{
+    background-color:white;
+    border:1px solid #ccc;
+    color:#aaa;
+    text-align:center;
+    padding:10px 15px 10px 15px;
+    font-size:16px;
+    border-radius:20px;
+    float:right;
+    clear:both;
+    cursor:pointer;
+}
+button.generate-new-matches:hover{
+    background-color:#080049;
+    border:1px solid #080049;
+    color:#fff;
+}
+button.generate-new-matches [class^="gw-"]:before,
+button.generate-new-matches [class*=" gw-"]:before,
+button.generate-new-matches  [class^="gw-"]:after,
+button.generate-new-matches [class*=" gw-"]:after,
+button.update-love-profile [class^="gw-"]:before,
+button.update-love-profile [class*=" gw-"]:before,
+button.update-love-profile  [class^="gw-"]:after,
+button.update-love-profile [class*=" gw-"]:after{
+    color:#e2476b;
+    margin-left:0px;
+    font-size:16px;
+}
+button.generate-new-career-matches [class^="gw-"]:before,
+button.generate-new-career-matches [class*=" gw-"]:before,
+button.generate-new-career-matches  [class^="gw-"]:after,
+button.generate-new-career-matches [class*=" gw-"]:after,
+button.update-career-profile [class^="gw-"]:before,
+button.update-career-profile [class*=" gw-"]:before,
+button.update-career-profile  [class^="gw-"]:after,
+button.update-career-profile [class*=" gw-"]:after{
+    color:#dbce00;
+    margin-left:0px;
+    font-size:16px;
+}
+

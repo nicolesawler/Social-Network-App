@@ -1,0 +1,199 @@
+
+@font-face {
+  font-family: "GWIcons";
+  src: url("./GWIcons.eot");
+  src: url("./GWIcons.eot?#iefix") format("embedded-opentype"),
+       url("./GWIcons.woff") format("woff"),
+       url("./GWIcons.ttf") format("truetype"),
+       url("./GWIcons.svg#GWIcons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "GWIcons";
+    src: url("./GWIcons.svg#GWIcons") format("svg");
+  }
+}
+
+[class^="gw-"]:before, [class*=" gw-"]:before,
+[class^="gw-"]:after, [class*=" gw-"]:after {   
+  font-family: GWIcons;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.gw-eye-1:before { content: "\f100"; }
+.gw-health-care:before { content: "\f101"; }
+.gw-delete-1:before { content: "\f102"; }
+.gw-can:before { content: "\f103"; }
+.gw-people-12:before { content: "\f104"; }
+.gw-silhouette:before { content: "\f105"; }
+.gw-map:before { content: "\f106"; }
+.gw-handpower:before { content: "\f107"; }
+.gw-ask:before { content: "\f108"; }
+.gw-goalwoke:before { content: "\f109"; }
+.gw-islam:before { content: "\f10a"; }
+.gw-car-garage:before { content: "\f10b"; }
+.gw-baby:before { content: "\f10c"; }
+.gw-toy:before { content: "\f10d"; }
+.gw-game:before { content: "\f10e"; }
+.gw-scientist-1:before { content: "\f10f"; }
+.gw-scientist:before { content: "\f110"; }
+.gw-pulse:before { content: "\f111"; }
+.gw-open-book:before { content: "\f112"; }
+.gw-world:before { content: "\f113"; }
+.gw-worldhand:before { content: "\f114"; }
+.gw-apple:before { content: "\f115"; }
+.gw-heartsmatch:before { content: "\f116"; }
+.gw-profits:before { content: "\f117"; }
+.gw-trophystar:before { content: "\f118"; }
+.gw-cup:before { content: "\f119"; }
+.gw-profile-25:before { content: "\f11a"; }
+.gw-profile-24:before { content: "\f11b"; }
+.gw-profile-23:before { content: "\f11c"; }
+.gw-profile-22:before { content: "\f11d"; }
+.gw-profile-21:before { content: "\f11e"; }
+.gw-signs-1:before { content: "\f11f"; }
+.gw-profile-20:before { content: "\f120"; }
+.gw-profile-19:before { content: "\f121"; }
+.gw-profile-18:before { content: "\f122"; }
+.gw-profile-17:before { content: "\f123"; }
+.gw-profile-16:before { content: "\f124"; }
+.gw-profile-15:before { content: "\f125"; }
+.gw-time:before { content: "\f126"; }
+.gw-profile-14:before { content: "\f127"; }
+.gw-technology-6:before { content: "\f128"; }
+.gw-profile-13:before { content: "\f129"; }
+.gw-profile-12:before { content: "\f12a"; }
+.gw-favorite:before { content: "\f12b"; }
+.gw-profile-11:before { content: "\f12c"; }
+.gw-profile-10:before { content: "\f12d"; }
+.gw-profile-9:before { content: "\f12e"; }
+.gw-agenda:before { content: "\f12f"; }
+.gw-profile-8:before { content: "\f130"; }
+.gw-technology-5:before { content: "\f131"; }
+.gw-interface-1:before { content: "\f132"; }
+.gw-profile-7:before { content: "\f133"; }
+.gw-profile-6:before { content: "\f134"; }
+.gw-shopping:before { content: "\f135"; }
+.gw-multimedia-6:before { content: "\f136"; }
+.gw-multimedia-5:before { content: "\f137"; }
+.gw-multimedia-4:before { content: "\f138"; }
+.gw-profile-5:before { content: "\f139"; }
+.gw-profile-4:before { content: "\f13a"; }
+.gw-profile-3:before { content: "\f13b"; }
+.gw-profile-2:before { content: "\f13c"; }
+.gw-profile-1:before { content: "\f13d"; }
+.gw-profile:before { content: "\f13e"; }
+.gw-user-6:before { content: "\f13f"; }
+.gw-user-5:before { content: "\f140"; }
+.gw-user-4:before { content: "\f141"; }
+.gw-user-3:before { content: "\f142"; }
+.gw-user-2:before { content: "\f143"; }
+.gw-user-1:before { content: "\f144"; }
+.gw-user:before { content: "\f145"; }
+.gw-taurus:before { content: "\f146"; }
+.gw-pisces:before { content: "\f147"; }
+.gw-sagittarius:before { content: "\f148"; }
+.gw-aries:before { content: "\f149"; }
+.gw-scorpio:before { content: "\f14a"; }
+.gw-libra:before { content: "\f14b"; }
+.gw-virgo:before { content: "\f14c"; }
+.gw-leo:before { content: "\f14d"; }
+.gw-gemini:before { content: "\f14e"; }
+.gw-cancer:before { content: "\f14f"; }
+.gw-capricorn:before { content: "\f150"; }
+.gw-aquarius:before { content: "\f151"; }
+.gw-web-2:before { content: "\f152"; }
+.gw-web-1:before { content: "\f153"; }
+.gw-tea-cup:before { content: "\f154"; }
+.gw-coffee-cup:before { content: "\f155"; }
+.gw-security:before { content: "\f156"; }
+.gw-people-10:before { content: "\f157"; }
+.gw-people-9:before { content: "\f158"; }
+.gw-people-8:before { content: "\f159"; }
+.gw-technology-4:before { content: "\f15a"; }
+.gw-internet-2:before { content: "\f15b"; }
+.gw-multimedia-3:before { content: "\f15c"; }
+.gw-technology-3:before { content: "\f15d"; }
+.gw-people-7:before { content: "\f15e"; }
+.gw-people-6:before { content: "\f15f"; }
+.gw-people-5:before { content: "\f160"; }
+.gw-internet-1:before { content: "\f161"; }
+.gw-clock-5:before { content: "\f162"; }
+.gw-people-4:before { content: "\f163"; }
+.gw-people-3:before { content: "\f164"; }
+.gw-technology-2:before { content: "\f165"; }
+.gw-multimedia-2:before { content: "\f166"; }
+.gw-hands-1:before { content: "\f167"; }
+.gw-internet:before { content: "\f168"; }
+.gw-technology-1:before { content: "\f169"; }
+.gw-square:before { content: "\f16a"; }
+.gw-medical-1:before { content: "\f16b"; }
+.gw-medical:before { content: "\f16c"; }
+.gw-business-2:before { content: "\f16d"; }
+.gw-technology:before { content: "\f16e"; }
+.gw-people-2:before { content: "\f16f"; }
+.gw-multimedia-1:before { content: "\f170"; }
+.gw-science:before { content: "\f171"; }
+.gw-people-1:before { content: "\f172"; }
+.gw-multimedia:before { content: "\f173"; }
+.gw-file-2:before { content: "\f174"; }
+.gw-signs:before { content: "\f175"; }
+.gw-transport:before { content: "\f176"; }
+.gw-clock-4:before { content: "\f177"; }
+.gw-blind:before { content: "\f178"; }
+.gw-muted:before { content: "\f179"; }
+.gw-monitor:before { content: "\f17a"; }
+.gw-cloud-computing:before { content: "\f17b"; }
+.gw-padlock:before { content: "\f17c"; }
+.gw-file-1:before { content: "\f17d"; }
+.gw-file:before { content: "\f17e"; }
+.gw-placeholder:before { content: "\f17f"; }
+.gw-speech-bubble:before { content: "\f180"; }
+.gw-saturn:before { content: "\f181"; }
+.gw-home-1:before { content: "\f182"; }
+.gw-wifi:before { content: "\f183"; }
+.gw-photo-camera:before { content: "\f184"; }
+.gw-phone-call:before { content: "\f185"; }
+.gw-clock-3:before { content: "\f186"; }
+.gw-clock-2:before { content: "\f187"; }
+.gw-emoticon:before { content: "\f188"; }
+.gw-night:before { content: "\f189"; }
+.gw-clock-1:before { content: "\f18a"; }
+.gw-nature:before { content: "\f18b"; }
+.gw-religion:before { content: "\f18c"; }
+.gw-money-1:before { content: "\f18d"; }
+.gw-hand-1:before { content: "\f18e"; }
+.gw-gestures:before { content: "\f18f"; }
+.gw-key:before { content: "\f190"; }
+.gw-shapes-3:before { content: "\f191"; }
+.gw-clock:before { content: "\f192"; }
+.gw-heart-2:before { content: "\f193"; }
+.gw-interface:before { content: "\f194"; }
+.gw-heart-1:before { content: "\f195"; }
+.gw-money:before { content: "\f196"; }
+.gw-black:before { content: "\f197"; }
+.gw-businesshands:before { content: "\f198"; }
+.gw-hands:before { content: "\f199"; }
+.gw-people:before { content: "\f19a"; }
+.gw-hand:before { content: "\f19b"; }
+.gw-heart:before { content: "\f19c"; }
+.gw-business:before { content: "\f19d"; }
+.gw-coach-1:before { content: "\f19e"; }
+.gw-coach:before { content: "\f19f"; }
+.gw-agreement:before { content: "\f1a0"; }
+.gw-home:before { content: "\f1a1"; }
+.gw-eye:before { content: "\f1a2"; }
+.gw-open-lock:before { content: "\f1a3"; }
+.gw-edit:before { content: "\f1a4"; }
+.gw-trash-can:before { content: "\f1a5"; }
+.gw-delete:before { content: "\f1a6"; }
+.gw-chat-1:before { content: "\f1a7"; }
+.gw-chat:before { content: "\f1a8"; }
+.gw-heartshapesoutline:before { content: "\f1a9"; }
+.gw-heartshapes:before { content: "\f1aa"; }
+.gw-text-bubble:before { content: "\f1ab"; }

@@ -1,0 +1,322 @@
+/*
+Copyright 2017 nicolesawler.
+
+*/
+/* 
+    Created on : 16-Oct-2017, 7:07:55 PM
+    Author     : nicolesawler
+*/
+
+#page-box{
+    background-color:white;
+    border-color:#080049;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    padding:10px;
+    margin:0px auto 10px auto;
+    font-size:12px;
+    color:#080049;
+    width:650px;
+    font-family:verdana;
+    font-weight:normal;
+    line-height:20px;
+}
+#page-title{
+    background-color:#080049;
+    border:1px solid #080049;
+    border-bottom:0;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:10px auto 0px auto;
+    font-size:12px;
+    color:white;
+    width:660px;
+    height:25px;
+    font-family:verdana;
+    font-weight:bold;
+}
+
+#page-note{
+    background-color:white;
+    border:0px solid #080049;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:15px auto 0px auto;
+    font-size:12px;
+    color:#080049;
+    width:660px;
+    height:25px;
+    text-align:center;
+    font-family:verdana;
+    font-weight:normal;
+}
+
+
+
+
+
+/* requests */
+#request-box{
+    padding:10px;
+    margin:5px;
+/*    float:left;
+    width:290px;*/
+    display:block;
+}
+#friend-box,#match-box,#careers-box{
+    padding:10px;
+    margin:5px;
+    float:left;
+    width:290px;
+}
+
+.friendtxt{
+    color:#6393c0;
+}
+.friendtxtDelete{
+    color:#6393c0;
+    font-size:9px;
+    float:right;
+}
+
+.matchtxt{
+    color:#e2476b;
+}
+.matchtxtDelete{
+    color:#e2476b;
+    font-size:9px;
+    float:right;
+}
+.careerstxt{
+    color:#dbce00;
+}
+.careerstxtDelete{
+    color:#dbce00;
+    font-size:9px;
+    float:right;
+}
+
+.LOVE-request{
+    border:1px solid #e2476b;
+    background-color:white;
+}
+.FRIEND-request{
+    border:1px solid #6393c0;
+    background-color:white;
+}
+.CAREER-request{
+    border:1px solid #dbce00;
+    background-color:white;
+}
+.request-photo{
+    border:1px solid #080049;
+    float:left;
+    width:40px;
+    height:40px;
+    margin: 0 10px 0 0;
+    
+}
+.myfriends-photo{
+    border:1px solid #080049;
+    float:left;
+    width:50px;
+    height:50px;
+    margin: 0 10px 0 0;
+    
+}
+.mymatched-photo{
+    border:1px solid #080049;
+    float:left;
+    width:50px;
+    height:50px;
+    margin: 0 10px 0 0;
+    
+}
+.mycareers-photo{
+    border:1px solid #080049;
+    float:left;
+    width:50px;
+    height:50px;
+    margin: 0 10px 0 0;
+    
+}
+.myfriends-buttons,.mymatched-buttons,.mycareers-buttons{
+    float:left;
+    margin:5px 5px 5px 0;
+    
+}
+.request-buttons{
+    float:right;
+    margin:5px 5px 5px 5px;
+    
+}
+button.MessageFriendButton{
+        width:90px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#6393c0;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #6393c0;
+        
+}
+button.MessageMatchButton{
+        width:90px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#e2476b;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #e2476b;
+        
+}
+button.MessageCareersButton{
+        width:90px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#dbce00;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #dbce00;
+        
+}
+
+button.RemoveButton{
+        width:90px;
+	border:0;
+	color: #aaa;
+	border-radius:25px;
+	padding: 4px 15px 4px 15px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:white;
+        cursor:pointer;
+        font-size:10px;
+        border:1px solid #ccc;
+}
+
+
+
+button.LOVERequestButtonApprove{
+    	width:150px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#e2476b;
+        cursor:pointer;
+}
+button.FRIENDRequestButtonApprove{
+    	width:150px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#6393c0;
+        cursor:pointer;
+}
+button.CAREERRequestButtonApprove{
+    	width:150px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        background-color:#dbce00;
+        cursor:pointer;
+}
+button.RequestButtonApprove
+{
+    	width:150px;
+	border:0;
+	color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+
+}
+button.CAREERRequestButtonDeny,
+button.FRIENDRequestButtonDeny,
+button.LOVERequestButtonDeny,
+button.RequestButtonDeny
+{
+    	width:150px;
+	border:0;
+	color: #aaa;
+        border:1px solid #ccc;
+        background-color: white;
+	border-radius:25px;
+	padding: 8px 35px 8px 35px;
+	text-transform:uppercase;
+	font-weight:bold;
+        cursor:pointer;
+}
+button.LOVERequestButtonApprove:disabled,
+button.FRIENDRequestButtonApprove:disabled,
+button.CAREERRequestButtonApprove:disabled,
+button.RequestButtonApprove:disabled
+{
+    	background-color:#aaa;
+        color:white;
+	cursor:not-allowed;
+
+}
+button.CAREERRequestButtonDeny:disabled,
+button.FRIENDRequestButtonDeny:disabled,
+button.LOVERequestButtonDeny:disabled,
+button.RequestButtonDeny:disabled
+{
+    	background-color:#ccc;
+        color:white;
+	cursor:not-allowed;
+}
+
+
+#friend-box [class^="gw-"]:before,
+#friend-box  [class*=" gw-"]:before,
+#friend-box [class^="gw-"]:after,
+#friend-box  [class*=" gw-"]:after,
+#match-box [class^="gw-"]:before,
+#match-box  [class*=" gw-"]:before,
+#match-box [class^="gw-"]:after,
+#match-box  [class*=" gw-"]:after,
+#careers-box [class^="gw-"]:before,
+#careers-box  [class*=" gw-"]:before,
+#careers-box [class^="gw-"]:after,
+#careers-box  [class*=" gw-"]:after
+
+{
+    font-size:13px;
+    float:left;
+    line-height:13px;
+    margin-top:3px;
+    margin-bottom:0px;
+}
+#friend-box [class^="gw-"]:hover,
+#friend-box  [class*=" gw-"]:hover,
+#match-box [class^="gw-"]:hover,
+#match-box  [class*=" gw-"]:hover,
+#careers-box [class^="gw-"]:hover,
+#careers-box  [class*=" gw-"]:hover
+
+{
+    cursor:pointer;
+}

@@ -1,0 +1,246 @@
+#love-box{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 15px auto;
+	font-size:12px;
+	color:#080049;
+	width:630px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#love-title{
+	background-color:#080049;
+	border:1px solid #080049;
+	border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:660px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+#love-note{
+	background-color:#fff;
+	border:0px solid #080049;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:#8b8b8b;
+	width:660px;
+	height:25px;
+	text-align:center;
+	font-family:verdana;
+	font-weight:normal;
+}
+#love-box-holder{
+margin:0px 0px 0px 15px;
+	float:left;
+}
+#love-box-half{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:285px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#love-title-half{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:0px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:315px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+#love-box-top-left{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:485px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#love-title-top-left{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:20px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:515px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+
+#love-box-top-right{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 0 auto;
+	font-size:12px;
+	color:#080049;
+	width:85px;
+	font-family:verdana;
+	font-weight:normal;
+}
+#love-title-top-right{
+	background-color:#080049;
+	border:1px solid #080049;
+		border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:20px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:115px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+
+
+
+
+#love-survey-question{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+#love-survey-question input{
+	float:right;
+}
+
+
+#love-survey-holder{
+	width:300px;
+	float:left;
+	padding-right:10px;
+}
+
+
+
+
+#love-select,.love-select  {
+	width:131px;
+	float:right;
+	border:1px solid #ddd;
+	background-color:white;
+	border-radius:0;
+	outline:none;
+	  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  padding:2px 5px 2px 5px;
+  
+}
+
+
+.descriptions{
+	resize: none;
+	width:277px;
+	height:100px;
+	border:1px solid #ccc;
+	outline:none;
+	color:#080049;
+	font-size:13px;
+}
+#love-survey-question input{
+	outline:none;
+	padding-left:4px;
+	width:122px;
+}
+#love-survey-question input:hover,#love-survey-question input:focus,#love-survey-question select:hover,#love-survey-question select:focus{
+	outline:none;
+
+}
+
+button.save-love, .save-love:focus{
+	background-color:#080049;
+	color:white;
+	padding:  10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 15px 10px 0px;
+    float:right;
+    outline:none;
+}
+.save-love:hover{
+	background-color:#080049;
+	color:#dbce00;
+	padding:  10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:10px 15px 10px 0px;
+    float:right;
+    outline:none;
+    cursor:pointer;
+}
+.save-love:disabled{
+	opacity:.5;
+	color:white;
+}
+#love-box small{
+	color:#aaa;
+}
+
+
+
+/*profile views */
+
+span.inputAnswer{
+    float:right;
+    font-weight:bold;
+    text-align:right;
+  width: 270px;
+  max-height:40px;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+span.inputAnswerBR{
+    display:block;
+    font-weight:bold;
+      width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+span.inputAnswerCurrent{
+    float:right;
+    font-weight:bold;
+    text-align:right;
+  width: 150px;
+  max-height:20px;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

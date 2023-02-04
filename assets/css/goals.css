@@ -1,0 +1,597 @@
+#goals-box{
+	background-color:#fdf6ee;
+	border:1px solid #ffd8ac;
+	float:left;
+	text-align:center;
+	padding:20px 0 0 0;
+	margin:15px;
+	font-size:16px;
+	color:#db7303;
+	width:200px;
+	height:180px;
+	font-family:verdana;
+	font-weight:bold;
+	vertical-align: middle;
+}
+
+ .img-icon{font-size:24px;}
+ 
+
+ /* Goals Questions */
+#goals-question{
+    font-family:verdana;
+    margin:20px 10px 50px 10px;
+	
+}
+#goal-questions-box{
+    background-color: #fff3d9;
+    border:1px solid #fad177;
+    display:block;
+    padding:10px;
+	
+}
+.questionbox{
+    font-family:verdana;
+    margin:20px 10px 50px 10px;
+}
+
+.questionbox ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.questionbox li {
+    margin:0;
+    padding:0;
+}
+.questionbox [type=radio], .questionbox [type=checkbox] {
+    display:none;
+}
+.questionbox label {
+    display:block;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    width:650px;
+    margin: 5px auto 5px auto;
+    padding:5px;
+    background-color: #fff3d9;
+    border:1px solid #fad177;
+    color:#474747;
+    border-radius:0 0 0 0;
+    display: block;
+    font-size:14px;
+    font-family:verdana;
+    resize: none;
+    text-transform: capitalize;
+    height:20px;
+}
+
+.questionbox ul li label:hover, .questionbox [type=radio]:checked ~ label, .questionbox [type=checkbox]:checked ~ label {
+    background-color: #fff3d9;
+    border:1px solid #fad177;
+    color:#474747;
+}
+.questionbox .content {
+    overflow:hidden;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.questionbox p {
+    padding:10px;
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:7px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    background-color: #fff3d9;
+    border:1px solid #fad177;
+    color:#474747;
+}
+.vertical ul li label:hover {
+}
+.vertical ul li .content {
+    height:0px;
+    width:670px;
+    margin: 5px auto 5px auto;
+    border:0;
+    background-color:white;
+    color:black;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:300px;
+    border:0px solid #542437;
+}
+
+#goal-holder{
+    margin:0px 0px 0px 15px;
+	float:left;
+}
+#goal-title-top{
+    background-color:#080049;
+    border:1px solid #080049;
+    border-bottom:0;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:10px auto 0px auto;
+    font-size:12px;
+    color:white;
+    width:660px;
+    height:25px;
+    font-family:verdana;
+    font-weight:bold;
+}
+#goal-box-top{
+    background-color:white;
+    border-color:#080049;
+    border-width: 1px 1px 0px 1px;
+    border-style:solid;
+    padding:10px;
+    margin:0px auto 0 auto;
+    font-size:12px;
+    color:#080049;
+    width:650px;
+    font-family:verdana;
+    font-weight:normal;
+    line-height:20px;
+}
+#goal-add-box-top{
+    background-color:white;
+    border-color:#080049;
+    border-width: 1px 1px 1px 1px;
+    border-style:solid;
+    padding:10px;
+    margin:0px auto 0 auto;
+    font-size:12px;
+    color:#080049;
+    width:650px;
+    font-family:verdana;
+    font-weight:normal;
+    line-height:20px;
+}
+#goal-add-box-top textarea{
+    width:640px;
+    height:50px;
+    display:block;
+    resize:none;
+    background-color:white;
+    border:1px solid #080049;
+}
+#goal-add-box-top select{
+    float:left;
+    outline:none;
+    background-color:white;
+    border:1px solid #080049;
+    border-radius:0;
+    outline:none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    padding:7px 7px 7px 7px;
+    width:150px;
+}
+#goal-add-box-top button.goal-post{
+    background-color:#080049;
+    color:white;
+    padding:  10px 22px 10px 22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    border: 0;
+    text-align: center;
+    margin:0px 5px 10px 0px;
+    float:right;
+    outline:none;
+}
+#goal-add-box-top input[type="text"]{
+    width:630px;
+    background-color:white;
+    border:1px solid #080049;
+    padding:7px;
+    margin-bottom:10px;
+}
+
+#goal-add-box-top input[type="checkbox"]{
+    background-color:white;
+    border:1px solid #080049;
+    padding:7px;
+    margin-bottom:10px;
+}
+.checks{
+    margin: 5px 0 0 10px;
+    float:left;
+}
+#goals-note{
+    background-color:white;
+    border:0px solid #080049;
+    text-align:left;
+    padding:10px 0 0 10px;
+    margin:15px auto 0px auto;
+    font-size:12px;
+    color:#080049;
+    width:660px;
+    height:25px;
+    text-align:center;
+    font-family:verdana;
+    font-weight:normal;
+}
+.catTitleButton{
+    background-color:transparent;
+    border:0;
+    color:#080049;
+    outline:none;
+    cursor:pointer;
+}
+.catTitleButton:focus{
+    outline:none;
+}
+.btn-goals-edit,.btn-goals-achieved{
+    background-color:transparent;
+    border:0;
+    color:white;
+    font-weight:bold;
+    outline:none;
+    padding:0;
+    font-size:12px;
+    cursor:pointer;
+     
+}
+.btn-goals-edit:focus,.btn-goals-delete:focus{
+    outline:none;
+}
+.nogoals{
+    font-family:verdana;
+    padding:10px;
+    font-size:12px;
+    color:white;
+    background-color:#080049;
+    text-align:center;
+    width:652px;
+    margin:10px auto 0 auto;
+}
+.goals-social-box{
+    background-color:#eee;
+    display:block;
+    padding:12px;
+    width:646px;
+    margin:0 auto 0 auto;
+    border-color:#080049;
+    border-width: 0px 1px 1px 1px;
+    border-style:solid;
+    text-align:left;
+    font-size:10px;
+}
+.goals-social-box-right{
+    float:right;
+     font-size:10px;
+}
+#goal-box-top h2,#goal-add-box-top h2,#goal-box-top h2 a,#goal-add-box-top h2 a{
+    font-size:27px;
+    color:#080049;
+    font-family:verdana;
+    font-weight:normal;
+    line-height:27px;
+    margin-top:10px;
+    text-decoration:none;
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    bottom:0;
+    padding: 0;
+    width: 500px; /* Full width */
+    height: 150px; /* Full height */
+    border: 1px solid #888;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 5px 16px;
+    background-color: #dbce00;
+    color: #080049;
+    font-weight:bold;
+}
+
+.modal-body {padding: 15px 15px 25px 15px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #080049;
+    color: white;
+    height:35px;
+}
+.modalbtn{
+    background-color:#080049;
+    color:white;
+    font-weight:bold;
+    font-size:12px;
+    padding:10px 30px 10px 10px;
+    float:left;
+    border:0;
+    
+}
+.modalbtn:focus{
+    outline:0;
+    
+}
+
+#deleteButton{
+    color:white;
+    border:0;
+    background-color:transparent;
+    text-decoration: underline;
+    float:right;
+    cursor:pointer;
+    margin-right:10px;
+
+}
+#cancelButton{
+    color:#080049;
+    border:0;
+    background-color:transparent;
+    text-decoration: underline;
+    margin-left:190px;
+    margin-top:8px;
+    cursor:pointer;
+
+}
+#cancelButtonCat{
+    color:#080049;
+    border:0;
+    background-color:transparent;
+    text-decoration: underline;
+    margin-left:50px;
+    margin-top:8px;
+    cursor:pointer;
+}
+#deleteButton:focus,#cancelButton:focus{
+    outline:none;
+}
+button.countsSpan{
+    font-size:11px;
+    color:#080049;
+    text-align:right;
+    font-weight:bold;
+    display:block;
+    background-color:#eee;
+    padding:3px 15px 3px 0px;
+    margin:-10px -10px 0px -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.advice_comments {
+    font-family:georgia,verdana, sans-serif; 
+    margin:0 auto;
+    font-size:14px;
+
+}
+.advice_comments ul {
+    list-style:none;
+    margin:0;
+    padding:0;    
+}
+.advice_comments li {
+    margin:0;
+    padding:0;
+}
+.advice_comments [type=radio], .advice_comments [type=checkbox] {
+    display:none;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+}
+.advice_comments label {
+    display:block;
+    cursor:pointer;
+    text-transform:uppercase;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    	display:block;
+        text-align:right;
+	margin: 5px auto 5px auto;
+	border:0;
+	color:#080049;
+	border-radius:0 0 0 0;
+	display: block;
+	font-size:11px;
+	font-family:verdana;
+	resize: none;
+	text-transform: capitalize;
+	height:20px;
+        margin-top:-25px;
+        
+        
+}
+.advice_comments ul li label:hover, .advice_comments [type=radio]:checked ~ label, .advice_comments [type=checkbox]:checked ~ label {
+	background-color:transparent;
+	color:#080049;
+	border:0;
+}
+.advice_comments .content {
+    overflow:hidden;
+    width:674px;
+    margin:1px auto 1px auto;
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    background-color:#fafafa;
+}
+.advice_comments p {
+	padding:20px;
+
+}
+
+
+/* Vertical */
+.vertical ul li {
+    overflow:hidden;
+    margin:0 0 1px;
+}
+.vertical ul li label {
+    padding:10px;
+}
+.vertical [type=radio]:checked ~ label, .vertical [type=checkbox]:checked ~ label {
+    border:0;
+}
+.vertical ul li label:hover {
+}
+.vertical ul li .content {
+    height:0px;
+	margin: 5px auto 5px auto;
+	border:0;
+	background-color:white;
+	color:black;
+}
+.vertical [type=radio]:checked ~ label ~ .content, .vertical [type=checkbox]:checked ~ label ~ .content {
+    height:auto;
+    border:0px solid #542437;
+    display:block;
+}
+.vertical [type=radio]  ~ label ~ .content, .vertical [type=checkbox]  ~ label ~ .content {
+    display:none;
+}
+
+
+
+.encourageSpan{
+    margin-right:100px;
+    margin-top:-1px;
+}
+.goal-advice-comment-box{
+    width:625px;
+    height:100px;
+    display:block;
+    resize:none;
+    margin:0;
+    background-color:white;
+    border:1px solid #aaa;
+}
+.goal-advice-comment-box:focus{
+    outline:none;
+    border:1px solid #aaa;
+}
+.goal-advice-comments b{
+    font-size:12px;
+    color:#080049;
+}
+.goal-advice-comments small{
+    font-size:10px;
+    color:#aaa;
+}
+.goal-advice-comments{
+    font-family:verdana;
+    font-size:11px;
+    line-height:15px;
+    padding:0px 30px 20px 30px;
+}
+.removebtn{
+    border:0;
+    background-color:transparent;
+    color:#080049;
+    float:right;
+    cursor:pointer;
+}
+.goal-advice-comments form{
+   float:right;
+}
+.addadvicebtn{
+    background-color:white;
+    padding:10px 15px 10px 15px;
+    color:#080049;
+    font-weight:bold;
+    border:1px solid #aaa;
+    margin-top:5px;
+    
+}
+
+
+
+
+
+#goal-add-box-top [class^="gw-"]:before,
+#goal-add-box-top  [class*=" gw-"]:before,
+#goal-add-box-top [class^="gw-"]:after,
+#goal-add-box-top  [class*=" gw-"]:after{
+    font-size:35px;
+    float:left;
+    line-height:35px;
+    margin-right:25px;
+    margin-bottom:5px;
+}

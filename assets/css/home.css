@@ -1,0 +1,342 @@
+/* 
+    Created on : 12-Oct-2017, 8:04:59 AM
+    Author     : nicolesawler
+*/
+
+
+
+/*
+*timeline
+*
+*/
+
+#single-moment{
+    margin-top:20px;
+    text-align:center;
+    position:relative;
+}
+
+/*.characters-used{
+	font-family:verdana;
+	color:#77a277;
+	font-size:10px;
+	background-color:#ebffe6;
+	height:13px;
+	padding:12px 14px 12px 14px;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	border-color:#080049;
+	float:left;
+	margin: 20px 0 20px 0;
+        width:20px;
+        text-align:center;
+}*/
+.characters-used{
+	font-family:verdana;
+	color:#ccc;
+        position:absolute;
+        right:27px;
+        bottom:57px;
+        font-weight:bold;
+}
+textarea.in-single-mom{
+	width:650px;
+        height:80px;
+	margin: 20px 0 20px 0;
+	padding:12px;
+	border:0px solid #080049;
+	border-radius:20px;
+        background-color:#eee;
+        color:#474747;
+        resize:none;
+        font-size:14px;
+        line-height:20px;
+        overflow:hidden;
+	
+}
+input.in-single-mom{
+	width:490px;
+	margin: 20px 0 20px 0;
+	float:left;
+	padding:12px;
+	border:1px solid #080049;
+	border-radius:20px 0 0 20px;
+	
+}
+input.in-single-mom:focus,textarea.in-single-mom:focus{
+	outline: none;
+}
+.triangle-just-because{
+    color:#080049;
+    font-size:30px;
+    position:absolute;
+    bottom:0px;
+    right:110px;
+}
+button.in-single-mom-submit{
+	width:50px;
+	height:50px;
+	padding:0px;
+        text-align:center;
+	font-weight:bold;
+	font-size:25px;
+	background-color:#080049;
+	border-radius: 50% 50%;
+	color:white;
+	border:0;
+        position:absolute;
+        bottom:10px;
+        right:50px;
+	
+}
+button.in-single-mom-submit:focus,button.in-single-mom-submit:hover{
+	outline: none;
+        background-color:#dbce00;
+        color:#080049;
+        cursor:pointer;
+	
+}
+/*input.in-single-mom-submit{
+	width:125px;
+	height:39px;
+	margin: 20px 0 20px 0;
+	padding:10px 10px 10px 10px;
+	font-weight:bold;
+	font-size:18px;
+        line-height:18px;
+	font-style:normal;
+	background-color:#080049;
+	border-radius:0 20px 20px 0;
+	color:white;
+	border:0;float:left;
+	
+}
+input.in-single-mom-submit:focus{
+	outline: none;
+	
+}*/
+
+.radio-toolbar {
+    margin-top:0px;
+}
+
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+
+.radio-toolbar label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 4px 11px;
+  font-family: Arial;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius:10px;
+}
+.radio-toolbar label.thought {
+  background-color: #626262;
+  color:white;
+}
+.radio-toolbar label.love {
+  background-color: #e2476b;
+  color:white;
+}
+.radio-toolbar label.goals {
+  background-color: #6393c0;
+  color:white;
+}
+.radio-toolbar label.career {
+  background-color: #dbce00;
+  color:white;
+}
+.radio-toolbar label.glogs {
+  background-color: #080049;
+  color:white;
+}
+.radio-toolbar label.stars {
+  background-color: #967bb3;
+  color:white;
+}
+.radio-toolbar label.trigger {
+  background-color: #4c0366;
+  color:white;
+}
+
+
+
+
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #fff;
+  color:#080049;
+  border-bottom:2px solid #080049;
+}
+
+
+#single-moment [class^="gw-"]:before,
+#single-moment  [class*=" gw-"]:before,
+#single-moment [class^="gw-"]:after,
+#single-moment  [class*=" gw-"]:after{
+    font-size:13px;
+    float:left;
+    line-height:15px;
+    margin-right:5px;
+    margin-bottom:0px;
+    margin-left:0;
+    
+}
+
+
+
+
+
+.Timeline_Container{
+    background-color:transparent;
+    margin-top:-15px;
+    width:687px;
+}
+
+
+
+#status-box{
+	background-color:white;
+	border:1px solid #ddd;
+	
+	padding:20px;
+	margin:0px 0 15px 0;
+	font-size:14px;
+        line-height:22px;
+	color:#474747;
+	width:645px;
+	font-family:verdana;
+	font-weight:normal;
+        border-radius: 0 0 10px 10px;
+}
+#status-title{
+	background-color:white;
+	border:1px solid #ddd;
+        border-bottom:1px solid #ccc;
+	border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px 0 0px 0;
+	font-size:12px;
+	color:#080049;
+	width:675px;
+	height:25px;
+	font-family:verdana;
+	font-weight:normal;
+}
+#status-title a {
+    text-decoration:none;
+}
+
+#status-title.thought{
+    color:#474747;
+}
+#status-title.thought b{
+    color:#626262;
+}
+#status-title.goals{
+    color:#474747;
+}
+#status-title.goals b{
+    color:#6393c0;
+}
+#status-title.love{
+    color:#474747;
+}
+#status-title.love b{
+    color:#e2476b;
+}
+#status-title.career{
+    color:#474747;
+}
+#status-title.career b{
+    color:#dbce00;
+}
+#status-title.glogs{
+    color:#474747;
+}
+#status-title.glogs b{
+    color:#080049;
+}
+#status-title.stars{
+    color:#474747;
+}
+#status-title.stars b{
+    color:#967bb3;
+}
+#status-title.trigger{
+    color:#474747;
+}
+#status-title.trigger b{
+    color:#5a007a;
+}
+
+.timelinedate{
+    text-align:right;
+    color:#ccc;
+    font-size:11px;
+    display:block;
+}
+
+
+
+
+.HomeFriendDiv,#HomeFriendButton a{
+    font-weight:bold;
+    width:180px;
+    border:1px solid #6393c0;
+    color:#6393c0;
+    float:left;
+    padding:20px;
+    font-size:14px;
+    text-align:center;
+    background-color:white;
+    border-radius: 9px 9px 0 0;
+    margin-right:10px;
+}
+.HomeLoveDiv,#HomeLoveButton a{
+    font-weight:bold;
+    width:180px;
+    border:1px solid #e2476b;
+    color:#e2476b;
+    float:left;
+    padding:20px;
+    font-size:14px;
+    text-align:center;
+    background-color:white;
+    border-radius: 9px 9px 0 0;
+    margin-right:10px;
+}
+.HomeCareerDiv,#HomeCareerButton a{
+    font-weight:bold;
+    width:180px;
+    background-color:white;
+    border:1px solid #dbce00;
+    color:#dbce00;
+    float:left;
+    padding:20px;
+    font-size:14px;
+    text-align:center;
+    border-radius: 9px 9px 0 0;
+    margin-right:10px;
+}
+
+.friendActive
+{
+    color:white;
+    background-color:#6393c0;
+}
+.loveActive
+{
+    color:white;
+    background-color:#e2476b;
+}
+.careerActive
+{
+    color:white;
+    background-color:#dbce00;
+}
+
+

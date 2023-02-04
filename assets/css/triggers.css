@@ -1,0 +1,77 @@
+/*
+Copyright 2017 nicolesawler.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+/* 
+    Created on : 12-Dec-2017, 9:36:09 AM
+    Author     : nicolesawler
+*/
+
+#trigger-outline{
+    text-align:center;
+    margin:20px auto 20px auto;
+    
+}
+#trigger-outline h2{
+    color:#080049;
+    
+}
+.trig-cats-list{
+    list-style:none;
+    display:inline;
+    background-color:#efefef;
+    padding:15px;
+}
+
+.trig-cats-list ul{
+   margin:20px auto 20px auto;
+}
+.trig-cats-list li{
+    list-style:none;
+    display:inline;
+    margin:20px;
+    font-size:14px;
+}
+.trig-cats-list .red{
+    color:#c02c34;
+}
+.trig-cats-list .orange{
+    color:#f16031;
+}
+
+.trig-cats-list .burn{
+    color:#f2a25b;
+}
+.trig-cats-list .yellow{
+    color:#fcc52d;
+}
+.trig-cats-list .green{
+    color:#1d7e4d;
+}
+.trig-cats-list .teal{
+    color:#62aea2;
+}
+.trig-cats-list .blue{
+    color:#1bb1ca;
+}
+.trig-cats-list .navy{
+    color:#4e4c9c;
+}
+.trig-cats-list .purple{
+    color:#8e5388;
+}
+.trig-cats-list .magenta{
+    color:#b61388;
+}
+

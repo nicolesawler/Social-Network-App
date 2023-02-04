@@ -1,0 +1,118 @@
+#love-box{
+	background-color:white;
+	border:1px solid #080049;
+	padding:20px;
+	margin:0px auto 15px auto;
+	font-size:12px;
+	color:#080049;
+	width:630px;
+	font-family:verdana;
+	font-weight:normal;
+	line-height:20px;
+}
+#love-title{
+	background-color:#080049;
+	border:1px solid #080049;
+	border-bottom:0;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:white;
+	width:660px;
+	height:25px;
+	font-family:verdana;
+	font-weight:bold;
+}
+#love-note{
+	background-color:#fff;
+	border:0px solid #080049;
+	text-align:left;
+	padding:10px 0 0 10px;
+	margin:15px auto 0px auto;
+	font-size:12px;
+	color:#8b8b8b;
+	width:660px;
+	height:25px;
+	text-align:center;
+	font-family:verdana;
+	font-weight:normal;
+}
+#love-box-holder{
+margin:0px 0px 0px 15px;
+	float:left;
+}
+#account-pref-table{
+	width:100%;
+/* 	border:1px solid #080049; */
+}
+#account-pref-table input,#account-pref-table select{
+	background-color:white;
+	border:1px solid #ccc;
+	padding:7px;
+		border-radius:0;
+	outline:none;
+	  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+#account-pref-table input{
+	width:190px;
+}
+#account-pref-table input:disabled{
+	background-color: #eee;
+}
+#account-pref-table select{
+	width:206px;
+}
+#account-pref-table select.dates{
+	width:100px;
+}
+#account-pref-table td{
+	width:200px;
+/* 	border:1px solid #ccc; */
+}
+#account-pref-table small{
+	color:#aaa;
+}
+
+
+
+
+
+
+
+#account-privacy-table{
+	width:100%;
+/* 	border:1px solid #080049; */
+}
+#account-privacy-table input,#account-privacy-table select{
+	background-color:white;
+	border:1px solid #ccc;
+	padding:7px;
+	border-radius:0;
+	outline:none;
+  -webkit-border-radius: 0px;
+}
+#account-privacy-table input{
+	
+}
+#account-privacy-table input:disabled{
+	background-color: #eee;
+}
+
+#account-privacy-table td{
+	width:50px;
+/* 	text-align:center; */
+/* border:1px solid #080049; */
+}
+#account-privacy-table th{
+	font-size:10px;
+	font-weight:normal;
+	line-height:13px;
+	text-align:left;
+	padding-bottom:10px;
+	vertical-align: top;
+}
+#account-privacy-table small{
+	color:#aaa;
+}
